@@ -1,6 +1,6 @@
 # IR Competition
 
-The competition is based on the CORD-19 dataset. You're free to use both supervised or unsupervised approaches for this competition.
+The competition is based on the CORD-19 dataset for supporting research on COVID-19. You're free to use both supervised or unsupervised approaches for this competition.
 
 The test files can be obtained from https://drive.google.com/file/d/1FCW8fmcneow5yyDgApkPIGM-r2x6OFkm/view?usp=sharing
 
