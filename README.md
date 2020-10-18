@@ -10,9 +10,9 @@ Dataset format:
 
 The following files are available in both the `train` and `test` folders:
 
-- `documents\embeddings.zip`:  A collection of precomputed [SPECTER](https://arxiv.org/abs/2004.07180) document embeddings for each CORD-19 paper
-- `documents\document_parses.tar.gz`: A collection of JSON files that contain full text parses of a subset of CORD-19 papers
-- `documents\metadata.csv`: Metadata for all CORD-19 papers.
+- `documents/embeddings.zip`:  A collection of precomputed [SPECTER](https://arxiv.org/abs/2004.07180) document embeddings for each CORD-19 paper
+- `documents/document_parses.tar.gz`: A collection of JSON files that contain full text parses of a subset of CORD-19 papers
+- `documents/metadata.csv`: Metadata for all CORD-19 papers.
 - `queries.xml`: Queries. Each 'topic' is a single query. You may use any (or a combination) of the fields (query, question, narrative) for each query.
 
 The train folder also contains a relevance judgements file. Each row has a `topic/query_id doc_uid relevance_score`. 
