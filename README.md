@@ -41,7 +41,7 @@ When `document_parses.tar.gz` is uncompressed, it is a directory:
 
 
 
-### Example usage
+### Example usage of documents
 
 It is recommended to primarily use `metadata.csv` & augment data when needed with full text in `document_parses/`.  For example, let's say we wanted to collect a bunch of Titles, Abstracts, and Introductions of papers.  In Python, such a script might look like:
 
