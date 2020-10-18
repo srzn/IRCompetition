@@ -2,9 +2,9 @@
 
 The competition is based on the CORD-19 dataset. You're free to use both supervised or unsupervised approaches for this competition.
 
-The test files can be from 
+The test files can be obtained from https://drive.google.com/file/d/1FCW8fmcneow5yyDgApkPIGM-r2x6OFkm/view?usp=sharing
 
-The train files can be from 
+The train files can be obtained from https://drive.google.com/file/d/1E_Y-MkNvoOYoCZUZZa8JJ3ExiHYTfKTo/view?usp=sharing
 
 Dataset format:
 
