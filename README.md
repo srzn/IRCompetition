@@ -117,17 +117,19 @@ It is recommended to use `metadata.csv` as the starting point.  This file is com
 
 ### Questions about CORD-19
 
-#Why can the same `uid` appear in multiple rows?
+**Why can the same `uid` appear in multiple rows?**
 They are the same paper, but sent from different sources. Different rows might have different information about the paper. All of this data is representative of the same paper. 
 
-#What should we do if both PDF and PMC JSONs exist?  Or if there are multiple PDF JSONs?
+**What should we do if both PDF and PMC JSONs exist?  Or if there are multiple PDF JSONs?**
 These are different attempts/views to represent the same paper/document.  Some are going to be higher quality than others.  Treat these are separate representations of the same document – you can choose to use one, both, neither (i.e. just use the metadata fields).  On average, the PMC JSONs are cleaner than the PDF JSONs but that’s not necessarily true. 
 
 
 
-###Submission Instructions*** : Please add a  file named `predictions.txt` containing the predicted relevance scores on the test queries. Please submit The file should be in the same format as train/qrels.txt, i.e `topic/query_id doc_uid relevance_score`. You should submit the scores for the top 1000 documents per query.
+###Submission Instructions 
 
-References
+Please add a  file named `predictions.txt` containing the predicted relevance scores on the test queries. Please submit The file should be in the same format as train/qrels.txt, i.e `topic/query_id doc_uid relevance_score`. You should submit the scores for the top 1000 documents per query.
+
+###References
 
 ```
  @inproceedings{wang-lo-2020-cord19,
