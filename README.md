@@ -125,11 +125,11 @@ These are different attempts/views to represent the same paper/document.  Some a
 
 
 
-###Submission Instructions 
+### Submission Instructions 
 
 Please add a  file named `predictions.txt` containing the predicted relevance scores on the test queries. Please submit The file should be in the same format as train/qrels.txt, i.e `topic/query_id doc_uid relevance_score`. You should submit the scores for the top 1000 documents per query.
 
-###References
+### References
 
 ```
  @inproceedings{wang-lo-2020-cord19,
