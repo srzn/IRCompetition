@@ -1,0 +1,12 @@
+stop-words = "stopwords.txt"
+prefix = "."
+dataset = "SarsCoV2"
+corpus = "line.toml"
+index = "idx2"
+[query-runner]
+	query-id-start = 1
+	query-path = "queries-test.txt"
+[[analyzers]]
+	filter = "default-unigram-chain"
+	method = "ngram-word"
+	ngram = 1
